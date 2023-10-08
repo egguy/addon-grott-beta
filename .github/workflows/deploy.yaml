@@ -1,0 +1,31 @@
+---
+name: Deploy
+
+# yamllint disable-line rule:truthy
+on:
+  release:
+    types:
+      - published
+  workflow_run:
+    workflows: ["CI"]
+    branches: [main]
+    types:
+      - completed
+concurrency:
+  group: deploy
+
+jobs:
+  workflows:
+    strategy:
+      matrix:
+        target: [ha-addons-edge, grott-home-assistant-add-on]
+    uses: hassio-addons/workflows/.github/workflows/addon-deploy.yaml@main
+    with:
+      slug: "grott"
+      repository: "ha-addons"
+      repository_edge: ${{ matrix.target }}
+    secrets:
+      DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+    permissions:
+      contents: write
+      packages: write
