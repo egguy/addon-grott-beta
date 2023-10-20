@@ -24,6 +24,8 @@ The grott server decodes them andsendsd them to your HA instance.
 
 This add-on is based on the 2.8 Branch of [grott](https://github.com/johanmeijer/grott) code and current grott_ha extension.
 
+[:books: Read the full add-on documentation][docs]
+
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
@@ -38,3 +40,4 @@ This add-on is based on the 2.8 Branch of [grott](https://github.com/johanmeijer
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 [releases-shield]: https://img.shields.io/github/release/egguy/addon-grott-beta.svg
 [releases]: https://github.com/egguy/addon-grott-beta/releases
+[docs]: https://github.com/egguy/addon-grott-beta/blob/main/grott-beta/DOCS.md
