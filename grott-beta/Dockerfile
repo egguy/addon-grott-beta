@@ -2,6 +2,7 @@ ARG BUILD_FROM=ghcr.io/hassio-addons/base:14.3.3
 # hadolint ignore=DL3006
 FROM $BUILD_FROM
 
+ENV GIT_REF=c97bd8ca8c6b8dd778cd3a089711703e0a60bd7e
 ENV LANG C.UTF-8
 
 
@@ -18,7 +19,7 @@ COPY script.sh /app/script.sh
 RUN chmod a+x /app/script.sh
 
 WORKDIR /app
-RUN curl -Lk 'https://github.com/johanmeijer/grott/archive/refs/heads/Beta-(2.8.x).zip' --output files.zip && unzip -o files.zip && rm files.zip && mv grott-*/*.py ./
+RUN curl -Lk "https://github.com/johanmeijer/grott/archive/$GIT_REF.zip" --output files.zip && unzip -o files.zip && rm files.zip && mv grott-*/*.py ./
 
 COPY requirements.txt requirements.txt
 #Install required python packages
