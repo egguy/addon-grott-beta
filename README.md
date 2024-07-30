@@ -1,4 +1,10 @@
-# Grott beta 2.8.x
+# Grott
+
+> [!WARNING] > **As there is no beta release of grott currently, this repository is similar to the non-beta.**
+>
+> **Please switch to the non-beta version if you are looking for the most up-to-date releases.**
+>
+> The add-on can be found in the add-on store by searching for `grott`.
 
 [![GitHub Release][releases-shield]][releases] ![Project Stage][project-stage-shield] [![License][license-shield]](LICENSE.md)
 
@@ -8,13 +14,18 @@
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/egguy)
 
-This add-on allows you to run a local version of grott with the HA plugin
-and auto discovery enabled.
+## About
 
-The data is forwarded to the growatt's server.
-The grott server decodes them andsendsd them to your HA instance.
+This add-on allows you to run a local version of grott with the grott_ha extension on your Home Assistant instance.
 
-This add-on is based on the 2.8 Branch of [grott](https://github.com/johanmeijer/grott) code and current grott_ha extension.
+[:books: Read the full add-on documentation][docs]
+
+It bundles:
+
+- [grott](https://github.com/johanmeijer/grott/): [2.8.3 20240722](https://github.com/johanmeijer/grott/tree/36845fe1df38b7bdcdb6d02e43aecf991d67406a)
+- [grott-ha-plugin](https://github.com/egguy/grott-ha-plugin): [0.11.0](https://pypi.org/project/grott-ha-plugin/0.11.0/)
+
+In an easy to use and configure add-on add-on.
 
 [:books: Read the full add-on documentation][docs]
 
@@ -28,7 +39,7 @@ This add-on is based on the 2.8 Branch of [grott](https://github.com/johanmeijer
 [github-actions]: https://github.com/egguy/addon-grott-beta/actions
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [license-shield]: https://img.shields.io/github/license/egguy/addon-grott-beta.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-stable-yellow.svg
 [releases-shield]: https://img.shields.io/github/release/egguy/addon-grott-beta.svg
 [releases]: https://github.com/egguy/addon-grott-beta/releases
