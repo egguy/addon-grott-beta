@@ -6,7 +6,7 @@
   "commitMessagePrefix": "⬆️",
   "commitMessageTopic": "{{depName}}",
   "forkProcessing": "enabled",
-  "regexManagers": [
+  "customManagers": [
     {
       "fileMatch": ["/Dockerfile$", "/build.yaml$"],
       "matchStringsStrategy": "any",
@@ -67,6 +67,15 @@
       "matchManagers": ["pip_requirements"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
+    },
+    {
+      "customType": "regex",
+      "fileMatch": ["^/Dockerfile$"],
+      "matchStrings": ["ENV GIT_REF=(?<currentDigest>.*?)\\n"],
+      "currentValueTemplate": "Master",
+      "depNameTemplate": "grott",
+      "packageNameTemplate": "https://github.com/johanmeijer/grott",
+      "datasourceTemplate": "git-refs"
     }
   ]
 }
