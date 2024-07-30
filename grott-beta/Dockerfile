@@ -2,7 +2,7 @@ ARG BUILD_FROM=ghcr.io/hassio-addons/base-python:14.0.0
 # hadolint ignore=DL3006
 FROM $BUILD_FROM
 
-ENV GIT_REF=c97bd8ca8c6b8dd778cd3a089711703e0a60bd7e
+ENV GIT_REF=36845fe1df38b7bdcdb6d02e43aecf991d67406a
 ENV LANG C.UTF-8
 
 
