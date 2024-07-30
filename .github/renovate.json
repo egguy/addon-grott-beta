@@ -28,7 +28,7 @@
     },
     {
       "customType": "regex",
-      "fileMatch": ["^/Dockerfile$"],
+      "fileMatch": ["/Dockerfile$"],
       "matchStrings": ["ENV GIT_REF=(?<currentDigest>.*?)\\n"],
       "currentValueTemplate": "Master",
       "depNameTemplate": "grott",
