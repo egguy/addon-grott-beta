@@ -5,7 +5,6 @@ FROM $BUILD_FROM
 ENV GIT_REF=36845fe1df38b7bdcdb6d02e43aecf991d67406a
 ENV LANG C.UTF-8
 
-
 # Install python/pip
 ENV PYTHONUNBUFFERED=1
 RUN apk add --update --no-cache \
@@ -20,7 +19,7 @@ RUN curl -Lk "https://github.com/johanmeijer/grott/archive/$GIT_REF.zip" --outpu
 
 COPY requirements.txt requirements.txt
 #Install required python packages
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 CMD [ "./script.sh" ]
 

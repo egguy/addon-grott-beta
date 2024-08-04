@@ -99,7 +99,7 @@ jobs:
           event-type: update
           client-payload: >
             {
-              "addon": "grott-beta",
+              "addon": "${{ needs.information.outputs.slug }}",
               "name": "${{ needs.information.outputs.name }}",
               "repository": "${{ github.repository }}",
               "version": "${{ github.event.release.tag_name }}"
