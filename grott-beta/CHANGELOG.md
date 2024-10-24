@@ -1,5 +1,34 @@
 # Changelog
 
+## 0.1.8
+
+- Switch to grott beta
+- Feature parity with stable addon
+
+## 0.1.7
+
+- migrate away from goss to pytest
+- unit test of the container
+- Support for expire of measurements
+
+## 0.1.6
+
+- Add support for versionned grott
+- Use grot 2.8.3
+
+## 0.1.5
+
+- Update template
+- Update documentation
+
+## 0.1.4
+
+- Switch to use grott-ha-plugin
+
+## 0.1.3
+
+- Fixed CURL version
+
 ## 0.8
 
 Added an option to improve compatibility with [grott homeassistant integration](https://github.com/muppet3000/homeassistant-grott).
