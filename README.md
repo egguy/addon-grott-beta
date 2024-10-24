@@ -1,10 +1,8 @@
 # Grott
 
-> [!WARNING] > **As there is no beta release of grott currently, this repository is similar to the non-beta.**
->
-> **Please switch to the non-beta version if you are looking for the most up-to-date releases.**
->
-> The add-on can be found in the add-on store by searching for `grott`.
+An addon for Home Assistant that allows you to run a local version of grott with the grott_ha extension.
+
+Follows the [beta branch of the grott](<https://github.com/johanmeijer/grott/tree/Beta-(2.8.x)>)
 
 [![GitHub Release][releases-shield]][releases] ![Project Stage][project-stage-shield] [![License][license-shield]](LICENSE.md)
 
