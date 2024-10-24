@@ -25,7 +25,7 @@ It bundles:
 - [grott](https://github.com/johanmeijer/grott/): [2.8.3 20240722](https://github.com/johanmeijer/grott/tree/36845fe1df38b7bdcdb6d02e43aecf991d67406a)
 - [grott-ha-plugin](https://github.com/egguy/grott-ha-plugin): [0.11.0](https://pypi.org/project/grott-ha-plugin/0.11.0/)
 
-In an easy to use and configure add-on add-on.
+It's an easy to use and configure add-on.
 
 [:books: Read the full add-on documentation][docs]
 
