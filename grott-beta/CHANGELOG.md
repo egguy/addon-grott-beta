@@ -7,14 +7,14 @@
 
 ## 0.1.7
 
-- migrate away from goss to pytest
-- unit test of the container
+- Migrated testing framework from goss to pytest for improved test coverage
+- Added container-level unit tests for reliability
 - Support for expire of measurements
 
 ## 0.1.6
 
-- Add support for versionned grott
-- Use grot 2.8.3
+- Add support for versioned grott
+- Use grott 2.8.3
 
 ## 0.1.5
 
