@@ -1,8 +1,15 @@
 # Grott
 
-An addon for Home Assistant that allows you to run a local version of grott with the grott_ha extension.
+## About
 
-Follows the [beta branch of the grott](<https://github.com/johanmeijer/grott/tree/Beta-(2.8.x)>)
+This add-on allows you to run a local version of grott with the grott_ha extension on your Home Assistant instance.
+
+[:books: Read the full add-on documentation][docs]
+
+It packages:
+
+- [grott](https://github.com/johanmeijer/grott/): [2.8.X beta](<https://github.com/johanmeijer/grott/tree/Beta-(2.8.x)>)
+- [grott-ha-plugin](https://github.com/egguy/grott-ha-plugin): [0.11.0](https://pypi.org/project/grott-ha-plugin/0.11.0/)
 
 [![GitHub Release][releases-shield]][releases] ![Project Stage][project-stage-shield] [![License][license-shield]](LICENSE.md)
 
@@ -11,19 +18,6 @@ Follows the [beta branch of the grott](<https://github.com/johanmeijer/grott/tre
 [![Github Actions][github-actions-shield]][github-actions] ![Project Maintenance][maintenance-shield] [![GitHub Activity][commits-shield]][commits]
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/egguy)
-
-## About
-
-This add-on allows you to run a local version of grott with the grott_ha extension on your Home Assistant instance.
-
-[:books: Read the full add-on documentation][docs]
-
-It bundles:
-
-- [grott](https://github.com/johanmeijer/grott/): [2.8.3 20240722](https://github.com/johanmeijer/grott/tree/36845fe1df38b7bdcdb6d02e43aecf991d67406a)
-- [grott-ha-plugin](https://github.com/egguy/grott-ha-plugin): [0.11.0](https://pypi.org/project/grott-ha-plugin/0.11.0/)
-
-In an easy to use and configure add-on add-on.
 
 [:books: Read the full add-on documentation][docs]
 
