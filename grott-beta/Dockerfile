@@ -2,7 +2,7 @@ ARG BUILD_FROM=ghcr.io/hassio-addons/base-python:16.1.1
 # hadolint ignore=DL3006
 FROM $BUILD_FROM
 
-ENV GIT_REF=2122dc02627e9a6138c10ba8562024c04c7dc0be
+ENV GIT_REF=9d0b0309f8b72f5e3f6c2f8c72f6a83503b7f74f
 ENV LANG C.UTF-8
 
 # Install python/pip
