@@ -1,4 +1,4 @@
-# Grott
+# Grott Alpha
 
 ## About
 
@@ -8,7 +8,7 @@ This add-on allows you to run a local version of grott with the grott_ha extensi
 
 It packages:
 
-- [grott](https://github.com/johanmeijer/grott/): [2.8.X beta](<https://github.com/johanmeijer/grott/tree/Beta-(2.8.x)>)
+- [grott](https://github.com/johanmeijer/grott/): [Alpha](https://github.com/johanmeijer/grott/tree/Alpha)
 - [grott-ha-plugin](https://github.com/egguy/grott-ha-plugin): [0.11.0](https://pypi.org/project/grott-ha-plugin/0.11.0/)
 
 [![GitHub Release][releases-shield]][releases] ![Project Stage][project-stage-shield] [![License][license-shield]](LICENSE.md)
